@@ -1,0 +1,5 @@
+SELECT SUM( horasTrabajadas ) AS `hrNormal` , SUM( horasExtra ) AS `hrExtra`
+FROM horas_trabajadas
+WHERE `idEmpleado` =11
+AND `semana` =19
+AND `year` =2015
